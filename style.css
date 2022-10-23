@@ -691,7 +691,10 @@ ul{
 .blog__box:hover .blogbox__hover{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.blog__box:hover .blogboxhover__text{
+    margin-right: 20px;
 }
 
 /* BACKGROUND */
