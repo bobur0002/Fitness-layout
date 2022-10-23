@@ -742,6 +742,7 @@ ul{
 
 .info__boxes{
     display: flex;
+    align-items: flex-start;
     width: 95%;
     margin: 0 auto;
 }
@@ -825,7 +826,7 @@ ul{
 
 .info_text{
     text-align: left;
-    margin-left: 20px ;
+    margin-left: 20px;
 }
 
 .info__header{
