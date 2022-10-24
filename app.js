@@ -1,4 +1,4 @@
-
+'use strict'
 
 const schedule = document.querySelectorAll('.schedule__links');
 const cross = document.querySelectorAll('.cross');
@@ -7,8 +7,8 @@ const walls = document.querySelectorAll('.walls');
 const ppst = document.querySelectorAll('.ppsr');
 const candy = document.querySelectorAll('.candy');
 const classes = document.querySelectorAll('.schedule__classes');
-const cb = document.querySelector('#checkboxing')
-const box = document.querySelectorAll('.price__box')
+const cb = document.querySelector('#checkboxing');
+const box = document.querySelectorAll('.price__box');
 
 
 
