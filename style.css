@@ -676,8 +676,12 @@ ul{
 }
 
 .blogbox__hover{
-    display: none;
-    width: 90%;
+    display: flex;
+    opacity: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .blog__box:hover{
@@ -685,16 +689,12 @@ ul{
 }
 
 .blog__box:hover .blogbox__head{
-    display: none;
+   opacity: 0;
+
 }
 
 .blog__box:hover .blogbox__hover{
-    display: flex;
-    flex-direction: row;
-}
-
-.blog__box:hover .blogboxhover__text{
-    margin-right: 20px;
+    opacity: 1;   
 }
 
 /* BACKGROUND */
